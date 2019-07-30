@@ -4,14 +4,16 @@ target  = 0
 
 def check_pairs(elements, target = 0):
     
-     """ 
-            Check_smallest_list1 checks the smallest item in list1.
+    """ 
+            Check_pairs of the sum total (target)
 
             Par:
-                List1 is a list of iterable items.
+                Elements is a list of iterables.
+                
+                Target is the sum total of the three items in the iterables.
 
             Returns:
-                    Appends the smallest item to a new list (Pair).
+                    Three umbers whose sum equals to the target give.
 
             Run Time: 
                     Linear Time — O(n)
